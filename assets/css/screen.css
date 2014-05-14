@@ -156,6 +156,50 @@ table { border-collapse: collapse; border-spacing: 0; }
    2. General - Setting up some base styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('../fonts/proxima-nova-light.eot');
+    src: url('../fonts/proxima-nova-light.svg#proxima_nova_ltlight') format('svg'),
+         url('../fonts/proxima-nova-light.woff') format('woff'),
+         url('../fonts/proxima-nova-light.ttf') format('truetype'),
+         url('../fonts/proxima-nova-light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/proxima-nova-semibold.eot');
+    src: url('../fonts/proxima-nova-semibold.svg#proxima_nova_ltsemibold') format('svg'),
+         url('../fonts/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-semibold.woff') format('woff'),
+         url('../fonts/proxima-nova-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../fonts/proxima-nova-bold.eot');
+    src: url('../fonts/proxima-nova-bold.svg#proxima_nova_rgbold') format('svg'),
+         url('../fonts/proxima-nova-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-bold.woff') format('woff'),
+         url('../fonts/proxima-nova-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold Italic';
+    src: url('../fonts/proxima-nova-semibold-italic.eot');
+    src: url('../fonts/proxima-nova-semibold-italic.svg#proxima_novasemibold_italic') format('svg'),
+         url('../fonts/proxima-nova-semibold-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-semibold-italic.woff') format('woff'),
+         url('../fonts/proxima-nova-semibold-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     height: 100%;
     max-height: 100%;
@@ -165,7 +209,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Proxima Nova Light', 'Noto Serif', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #3A4145;
@@ -188,7 +232,8 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proxima Nova Light', 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 
 h1 {
@@ -452,11 +497,12 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 60%;
+    padding-top: 50px;
+    padding-bottom: 30px;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #303538 no-repeat center center;
+    background: #203041 no-repeat center center;
     background-size: cover;
 }
 
@@ -541,8 +587,8 @@ margin on the iframe, cause it breaks stuff. */
 .post-meta {
     display: inline-block;
     margin: 0 0 5px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Proxima Nova Light', 'Open Sans', sans-serif;
+    font-size: 1.6rem;
     color: #9EABB3;
 }
 
@@ -622,8 +668,11 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Insert some mad padding up in the header for better spacing */
 .post-template .post-header {
-    padding: 60px 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 5rem;
     text-align: center;
+    background: #203041 no-repeat center center;
 }
 
 .post-template .blog-title {
@@ -737,7 +786,8 @@ margin on the iframe, cause it breaks stuff. */
 
 .archive-template .site-head {
     height: auto;
-    padding-bottom: 5rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .archive-template .site-head a {
@@ -857,7 +907,7 @@ margin on the iframe, cause it breaks stuff. */
     margin: 8rem 0 0 0;
     padding: 4rem 0;
     border-top: #EBF2F6 1px solid;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proxima Nova Semibold', 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
     color: #BBC7CC;
@@ -980,8 +1030,8 @@ margin on the iframe, cause it breaks stuff. */
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
-        padding: 15% 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     .blog-title {
@@ -1053,7 +1103,8 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-head {
-        padding: 10% 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     .blog-title {
