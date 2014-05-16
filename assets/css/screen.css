@@ -903,34 +903,172 @@ margin on the iframe, cause it breaks stuff. */
    ========================================================================== */
 
 .site-footer {
-    position: relative;
-    margin: 8rem 0 0 0;
-    padding: 4rem 0;
-    border-top: #EBF2F6 1px solid;
-    font-family: 'Proxima Nova Semibold', 'Open Sans', sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.7em;
-    color: #BBC7CC;
+    padding-top: 80px;
+    background: #203041;
+}
+
+.site-footer .logo {
+    display: block;
+    float: left;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 193px;
+    height: 46px;
+    background: url(http://get-popcorn.com/images/footer-logo.png) no-repeat center;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+    margin-top: 21px;
+}
+
+.site-footer .logo:hover {
+    opacity: 0.9;
+}
+
+#status:before {
+    content: '';
+    border-radius: 99px;
+    margin-right: 4px;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}
+
+#status.none:before {
+    background-color: #2FCC66;
+}
+
+#status.minor:before {
+    background-color: #F1C40F;
+}
+
+#status.major:before {
+    background-color: #E67E22;
+}
+
+#status.critical:before {
+    background-color: #E74C3C;
+}
+
+.site-footer p,
+.site-footer ul,
+.site-footer ol,
+.site-footer dl {
+    margin: 0;
+}
+
+.site-footer nav {
+    width: 980px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.site-footer nav:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+.site-footer ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    padding-top: 22px;
+}
+
+.site-footer ul.social li {
+    list-style: none;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.site-footer ul.social li:first-child {
+    margin: 0;
+}
+
+.site-footer ul.social li a {
+    width: 32px;
+    height: 32px;
+    opacity: 0.4;
+    display: block;
+    transition: opacity 0.2s ease;
+}
+
+.site-footer ul.social li a:hover {
+    opacity: 0.9;
+}
+
+.site-footer ul.social li a.twitter {
+    background: url(http://get-popcorn.com/images/icon-twitter.png) no-repeat center;
+    background-size: contain;
+}
+
+.site-footer ul.social li a.blog {
+    background: url(http://get-popcorn.com/images/icon-blog.png) no-repeat center;
+    background-size: contain;
+}
+
+.site-footer ul.social li a.github {
+    background: url(http://get-popcorn.com/images/icon-github.png) no-repeat center;
+    background-size: contain;
+}
+
+.site-footer ul small {
+    display: block;
+    color: #6496b7;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.site-footer hr {
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #3b5570;
+    width: 980px;
+}
+
+.site-footer footer {
     text-align: center;
-    background: #F7FAFB;
+    font-size: 14px;
+    color: #526d8a;
+    font-family: 'Proxima Nova Light';
 }
 
-.site-footer a {
-    color: #BBC7CC;
-    text-decoration: underline;
+.site-footer footer .poweredby {
+    padding: 20px 0 0;
 }
 
-.site-footer a:hover {
-    color: #50585D;
+.site-footer footer p span {
+    color: #e74c3c;
+}
+
+.site-footer footer small {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.site-footer footer a {
+    text-decoration: none;
+    color: #526d8a;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.site-footer footer a:hover {
+    color: #fff;
 }
 
 .poweredby .icon-ghost {
     font-weight: 700;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .poweredby .icon-ghost:hover {
     text-decoration: none;
+    color: #ff;
 }
 
 .poweredby .icon-ghost:before {

@@ -25,6 +25,11 @@
 
         casperFullImg();
         $(window).smartresize(casperFullImg);
+        
+        var statusUrl = 'http://status.get-popcorn.com/index.json';
+        $.get(statusUrl, function(resp) {
+          $('#status').addClass(resp.status.indicator);
+        }, 'json');
 
     });
 
