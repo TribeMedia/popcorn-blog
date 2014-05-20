@@ -994,6 +994,8 @@ margin on the iframe, cause it breaks stuff. */
     opacity: 0.4;
     display: block;
     transition: opacity 0.2s ease;
+    overflow: hidden;
+    text-indent: -9999px;
 }
 
 .site-footer ul.social li a:hover {
