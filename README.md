@@ -2,4 +2,4 @@
 
 Built with [ghost](http://ghost.org)
 
-### The blog is [blog.get-popcorn.com](http://blog.get-popcorn.com/)
+### The blog is [blog.popcorntime.io](http://blog.popcorntime.io/)

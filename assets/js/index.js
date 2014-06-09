@@ -26,7 +26,7 @@
         casperFullImg();
         $(window).smartresize(casperFullImg);
         
-        var statusUrl = 'http://status.get-popcorn.com/index.json';
+        var statusUrl = 'http://status.popcorntime.io/index.json';
         $.get(statusUrl, function(resp) {
           $('#status').addClass(resp.status.indicator);
         }, 'json');

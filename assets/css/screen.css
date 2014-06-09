@@ -914,7 +914,7 @@ margin on the iframe, cause it breaks stuff. */
     overflow: hidden;
     width: 193px;
     height: 46px;
-    background: url(http://get-popcorn.com/images/footer-logo.png) no-repeat center;
+    background: url(http://popcorntime.io/images/footer-logo.png) no-repeat center;
     opacity: 0.3;
     transition: opacity 0.2s ease;
     margin-top: 21px;
@@ -1003,38 +1003,38 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .site-footer ul.social li a.twitter {
-    background: url(http://get-popcorn.com/images/icon-twitter.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-twitter.png) no-repeat center;
     background-size: contain;
 }
 
 .site-footer ul.social li a.blog {
-    background: url(http://get-popcorn.com/images/icon-blog.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-blog.png) no-repeat center;
     background-size: contain;
 }
 
 .site-footer ul.social li a.popcorn {
-    background: url(http://get-popcorn.com/images/icon-popcorn.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-popcorn.png) no-repeat center;
     background-size: contain;
 }
 
 .site-footer ul.social li a.facebook {
-    background: url(http://get-popcorn.com/images/icon-facebook.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-facebook.png) no-repeat center;
     background-size: contain;
 }
 
 .site-footer ul.social li a.discourse {
-    background: url(http://get-popcorn.com/images/icon-discourse.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-discourse.png) no-repeat center;
     background-size: contain;
 }
 
 
 .site-footer ul.social li a.google {
-    background: url(http://get-popcorn.com/images/icon-google.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-google.png) no-repeat center;
     background-size: contain;
 }
 
 .site-footer ul.social li a.github {
-    background: url(http://get-popcorn.com/images/icon-github.png) no-repeat center;
+    background: url(http://popcorntime.io/images/icon-github.png) no-repeat center;
     background-size: contain;
 }
 
